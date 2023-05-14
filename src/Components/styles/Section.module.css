@@ -6,8 +6,6 @@
     display: inline;
     float: left;
     position: relative;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
 }
 .Cont hr {
     opacity: 30%;
@@ -21,6 +19,8 @@
     float: left;
     position: relative;
     background-color: rgba(144, 152, 158, 0.185);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
 }
 .Title {
     font-weight: 300;
@@ -28,6 +28,7 @@
     margin-bottom: 1rem;
     letter-spacing: -1px;
     line-height: 1.333;
+    margin-top: 1rem;
 }
 .TitleSub {
     font-weight: 300;
@@ -46,13 +47,31 @@
     font-weight: 600;
 }
 
+
+.CardRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    column-gap: 2rem;
+    padding-top: 1rem;
+}
 .Card {
     height: 16rem;
     width: 12rem;
-    transition: transform .1s box-shadow .1s;
+    transition: transform .1s, box-shadow .1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
 }
 .Card:hover {
     cursor: pointer;
     transform: scale(1.02) perspective(0px);
     box-shadow: 0 10px 10px rgba(78, 75, 75, 0.459);
+}
+
+.Flyout {
+    height: 16rem;
+    width: 50rem;
 }
