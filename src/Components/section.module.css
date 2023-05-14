@@ -1,0 +1,58 @@
+
+.container {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    max-width: 70%;
+    display: inline;
+    float: left;
+    position: relative;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.container hr {
+    opacity: 30%;
+    padding-top: -100px;
+}
+.containerDark {
+    width: 100%;
+    max-width: 100%;
+    display: inline;
+    float: left;
+    position: relative;
+    background-color: rgba(144, 152, 158, 0.185);
+}
+.title {
+    font-weight: 300;
+    font-size: 4.665em;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+    line-height: 1.333;
+}
+.titleSub {
+    font-weight: 300;
+    font-size: 3.265em;
+    margin-left: -1px;
+    letter-spacing: -1px;
+    line-height: 1.0;
+}
+.body {
+    font-weight: 100;
+    font-size: 1.66em;
+    line-height: 1.00;
+}
+
+.emphasize {
+    font-weight: 600;
+}
+
+.card {
+    height: 16rem;
+    width: 12rem;
+    transition: transform .1s box-shadow .1s;
+}
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.02) perspective(0px);
+    box-shadow: 0 10px 10px rgba(78, 75, 75, 0.459);
+}
