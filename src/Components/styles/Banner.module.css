@@ -7,7 +7,7 @@
  .BannerImage {
     object-fit:fill;
     height: 100%;
-    filter: blur(4.5px);
+    filter: blur(6.5px);
  }
  .Text {
     text-align: center;

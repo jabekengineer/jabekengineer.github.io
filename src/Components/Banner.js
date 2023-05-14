@@ -1,6 +1,6 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
-import styles from './Banner.module.css'
+import styles from './styles/Banner.module.css'
 
 
 export default function Banner(props) {

@@ -2,7 +2,7 @@ import { useTheme } from '@emotion/react'
 import { Box, Card, Container, Typography } from '@mui/material'
 import React from 'react'
 import JavascriptIcon from '@mui/icons-material/Javascript';
-import styles from './Section.module.css';
+import styles from './styles/Section.module.css';
 
 export default function Intro(props) {
     const theme = useTheme();
@@ -13,7 +13,7 @@ export default function Intro(props) {
             <Typography className={styles.TitleSub} color={theme.primary.main}>What I do </Typography>
             <hr/>
             <br/>
-            <Typography className={styles.Body} color={theme.primary.main}>I excel in agile teams where I have room to learn and be creative.</Typography>
+            <Typography className={styles.Plain} color={theme.primary.main}>I excel in agile teams where I have room to learn and be creative.</Typography>
             <br/>
             <Box 
             sx={{
