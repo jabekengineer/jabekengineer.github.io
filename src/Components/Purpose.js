@@ -2,19 +2,18 @@ import { useTheme } from '@emotion/react'
 import { Box, Card, Container, Typography } from '@mui/material'
 import React from 'react'
 import JavascriptIcon from '@mui/icons-material/Javascript';
-import styles from './section.module.css';
+import styles from './Section.module.css';
 
 export default function Intro(props) {
     const theme = useTheme();
-    const data = props.data;
     return(
         <>
-        <Container className={styles.containerDark}>
-            <Container className={styles.container}>
-            <Typography className={styles.titleSub} color={theme.primary.main}>What I do </Typography>
+        <Container className={styles.ContainerDark}>
+            <Container className={styles.Cont}>
+            <Typography className={styles.TitleSub} color={theme.primary.main}>What I do </Typography>
             <hr/>
             <br/>
-            <Typography className={styles.body} color={theme.primary.main}>{data.purpose.body}</Typography>
+            <Typography className={styles.Body} color={theme.primary.main}>I excel in agile teams where I have room to learn and be creative.</Typography>
             <br/>
             <Box 
             sx={{
@@ -25,7 +24,7 @@ export default function Intro(props) {
                 justifyItems: 'space-around'
             }}>
                 <Card
-                className={styles.card}
+                className={styles.Card}
                 sx={{
                     display: 'flex',
                     flexDirection: 'column',

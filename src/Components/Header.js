@@ -7,9 +7,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 export default function Header(props) {
     const theme = useTheme();
-    const data = props.data;
-    console.log(JSON.stringify(data))
-    console.log(props.ready)
     const pages = ['Home', 'Projects', 'Contact', 'Resume']
     return(
             <AppBar position='static' color='transparent' elevation={1}>
