@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import { createTheme, StyledEngineProvider, ThemeProvider} from '@mui/material/styles';
+import { createTheme, ThemeProvider} from '@mui/material/styles';
+import StyledEngineProvider from '@mui/material/StyledEngineProvider'
 import Header from './Components/Header';
 import Banner from './Components/Banner';
 import Intro from './Components/Intro'
@@ -30,12 +31,10 @@ class App extends Component {
       <>
       <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme}>
-      <div className='App'>
         <Header />
         <Banner  />
         <Intro/>
         <Purpose />
-      </div>
       </ThemeProvider>
       </StyledEngineProvider>
     </>
