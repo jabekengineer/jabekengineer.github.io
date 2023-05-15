@@ -8,6 +8,8 @@ import Intro from './Components/Intro'
 import Purpose from './Components/Purpose';
 import Skills from './Components/Skills';
 import Projects from './Components/Projects';
+import Experience from './Components/Experience';
+import Education from './Components/Education';
 
 const theme = createTheme({
   primary: {
@@ -63,6 +65,8 @@ class App extends Component {
           <Purpose/>
           <Skills/>
           <Projects/>
+          <Experience/>
+          <Education/>
         </ThemeProvider>
         </StyledEngineProvider>
       </>
@@ -76,6 +80,10 @@ class App extends Component {
           <HeaderMobile/>
           <Intro/>
           <Purpose/>
+          <Skills/>
+          <Projects/>
+          <Experience/>
+          <Education/>
         </ThemeProvider>
         </StyledEngineProvider>
       </>

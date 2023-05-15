@@ -88,8 +88,8 @@ export default function Intro(props) {
             </Box>
             </Container>
             {!flyout && 
-                <Container className = {styles.CardRow} sx={{textAlign: 'center', paddingBottom: 10}} >
-                <Typography variant='h5' color={theme.primary.main} sx={{opacity: '60%'}}>Click a box for details</Typography>
+                <Container className = {styles.CardRow} sx={{textAlign: 'center', paddingBottom: 3}} >
+                <Typography variant='h5' color={theme.primary.main} sx={{opacity: '60%', paddingTop: 2}}>Click a box for details</Typography>
                 </Container>
             }
             {flyout && 
