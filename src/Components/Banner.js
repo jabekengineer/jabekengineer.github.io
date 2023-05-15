@@ -5,7 +5,13 @@ import styles from './styles/Banner.module.css'
 
 export default function Banner(props) {
     return(
-        <Box component='a' href='/' sx={{display:'block', maxWidth: '100%'}}>
+        <Box component='a' href='/my-resume/' 
+        sx={{display:'flex', 
+        flexDirection: 'row',
+        flexGrow: 1, 
+        maxWidth: '100%', 
+        marginBottom: '2rem'
+        }}>
             <div className={styles.BannerText}>
                     <img className={styles.BannerImage} src={require('../assets/balcony.jpg')} alt="Jason Background"/>
                 <div className={styles.Text}>

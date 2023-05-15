@@ -21,18 +21,19 @@
     background-color: rgba(144, 152, 158, 0.185);
     margin-top: 3rem;
     margin-bottom: 3rem;
+    padding-bottom: 3rem;
 }
 .Title {
     font-weight: 300;
-    font-size: 4.665em;
+    font-size: 3.665em;
     margin-bottom: 1rem;
     letter-spacing: -1px;
     line-height: 1.333;
-    margin-top: 1rem;
+    
 }
 .TitleSub {
     font-weight: 300;
-    font-size: 3.265em;
+    font-size: 2.265em;
     margin-left: -1px;
     letter-spacing: -1px;
     line-height: 1.0;
@@ -51,8 +52,10 @@
 .CardRow {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     column-gap: 2rem;
+    row-gap: 1.5rem;
     padding-top: 1rem;
 }
 .Card {
@@ -72,6 +75,7 @@
 }
 
 .Flyout {
-    height: 16rem;
     width: 50rem;
+    display: flex;
+    padding: 1rem
 }
