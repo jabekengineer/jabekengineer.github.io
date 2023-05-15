@@ -101,14 +101,14 @@
 
 .ListTitle {
     font-weight: 500;
-    font-size: 1.5em;
+    font-size: 2em;
     padding-left: -.5em;
 }
 
 
 .ListItem {
     font-weight: 100;
-    font-size: 1.1em;
+    font-size: 1.33em;
     line-height: .75;
 }
 

@@ -7,6 +7,7 @@ import Banner from './Components/Banner';
 import Intro from './Components/Intro'
 import Purpose from './Components/Purpose';
 import Skills from './Components/Skills';
+import Projects from './Components/Projects';
 
 const theme = createTheme({
   primary: {
@@ -57,10 +58,11 @@ class App extends Component {
         <StyledEngineProvider injectFirst>
         <ThemeProvider theme={theme}>
           <Header />
-          <Banner  />
+          <Banner />
           <Intro/>
           <Purpose/>
           <Skills/>
+          <Projects/>
         </ThemeProvider>
         </StyledEngineProvider>
       </>
