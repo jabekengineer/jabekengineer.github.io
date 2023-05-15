@@ -2,9 +2,11 @@ import React, {Component} from 'react';
 import { createTheme, ThemeProvider} from '@mui/material/styles';
 import StyledEngineProvider from '@mui/material/StyledEngineProvider'
 import Header from './Components/Header';
+import HeaderMobile from './Components/HeaderMobile';
 import Banner from './Components/Banner';
 import Intro from './Components/Intro'
 import Purpose from './Components/Purpose';
+import Skills from './Components/Skills';
 
 const theme = createTheme({
   primary: {
@@ -18,10 +20,12 @@ const theme = createTheme({
     primary: 'rgb(35,51,51)',
     secondary: 'rgb(107,113,114)',
   },
-    background: {
-      dark: '#abb8c3',
-    }
-    
+  background: {
+    dark: '#abb8c3',
+  },
+  list: {
+    main: '#01579b'
+  }
 });
 
 window.mobileCheck = function() {
@@ -55,7 +59,8 @@ class App extends Component {
           <Header />
           <Banner  />
           <Intro/>
-          <Purpose />
+          <Purpose/>
+          <Skills/>
         </ThemeProvider>
         </StyledEngineProvider>
       </>
@@ -66,9 +71,9 @@ class App extends Component {
         <>
         <StyledEngineProvider injectFirst>
         <ThemeProvider theme={theme}>
-          <Header />
+          <HeaderMobile/>
           <Intro/>
-          <Purpose />
+          <Purpose/>
         </ThemeProvider>
         </StyledEngineProvider>
       </>

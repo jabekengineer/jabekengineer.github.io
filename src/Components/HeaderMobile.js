@@ -5,7 +5,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
 
-export default function Header(props) {
+export default function HeaderMobile(props) {
     const theme = useTheme();
     const pages = ['Home', 'Projects', 'Resume']
     return(
@@ -27,7 +27,7 @@ export default function Header(props) {
                     }}
                     >
                     <Typography 
-                    variant='h5' 
+                    variant='h7' 
                     noWrap
                     color={theme.text.secondary}
                     sx={{

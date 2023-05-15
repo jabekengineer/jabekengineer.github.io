@@ -23,31 +23,6 @@
     margin-bottom: 3rem;
     padding-bottom: 3rem;
 }
-.Title {
-    font-weight: 300;
-    font-size: 3.665em;
-    margin-bottom: 1rem;
-    letter-spacing: -1px;
-    line-height: 1.333;
-    
-}
-.TitleSub {
-    font-weight: 300;
-    font-size: 2.265em;
-    margin-left: -1px;
-    letter-spacing: -1px;
-    line-height: 1.0;
-}
-.Plain {
-    font-weight: 100;
-    font-size: 1.66em;
-    line-height: 1.00;
-}
-
-.Emphasize {
-    font-weight: 600;
-}
-
 
 .CardRow {
     display: flex;
@@ -75,7 +50,77 @@
 }
 
 .Flyout {
-    width: 50rem;
+    width: 52rem;
     display: flex;
-    padding: 1rem
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.ListRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 1rem;
+}
+.List {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.ListItemBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    gap: .33rem
+}
+.ListIcon {
+    scale: 2.5;
+    color: #617381
+}
+
+
+/* FONTS and TEXT */
+
+.TitleSub {
+    font-weight: 300;
+    font-size: 2.265em;
+    margin-left: -1px;
+    letter-spacing: -1px;
+    line-height: 1.0;
+}
+.Plain {
+    font-weight: 100;
+    font-size: 1.66em;
+    line-height: 1.00;
+}
+
+.ListTitle {
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-left: -.5em;
+}
+
+
+.ListItem {
+    font-weight: 100;
+    font-size: 1.1em;
+    line-height: .75;
+}
+
+.Title {
+    font-weight: 300;
+    font-size: 3.665em;
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+    line-height: 1.333;
+    
+}
+
+.Emphasize {
+    font-weight: 600;
 }

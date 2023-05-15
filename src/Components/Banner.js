@@ -15,9 +15,9 @@ export default function Banner(props) {
             <div className={styles.BannerText}>
                     <img className={styles.BannerImage} src={require('../assets/balcony.jpg')} alt="Jason Background"/>
                 <div className={styles.Text}>
-                    <img src = {require('../assets/me.png')} alt='Jason Profile' width={300} height={214}/>
-                    <Typography variant='h1'fontWeight={360}>jabekengineer</Typography>
-                    <Typography variant='h4' fontWeight={800} 
+                    <img src = {require('../assets/me.png')} alt='Jason Profile' width={300} height={200}/>
+                    <Typography variant='h2'fontWeight={360}>jabekengineer</Typography>
+                    <Typography variant='h5' fontWeight={800} 
                     sx={{
                         opacity:'60%'
                     }}>
