@@ -18,17 +18,17 @@ export default function Intro(props) {
             <Typography variant='h4' color={theme.primary.light}>Web Development</Typography>
             <br/>
             <Typography variant='h5' color={theme.primary.main}>
-                This is <b className={styles.Emphasize}>Web stuff dude</b>
+                Experience in <b className={styles.Emphasize}>React, Node.js, Express.js</b> and <b className={styles.Emphasize}>Google Apps Script</b> with completion of Mousemate, a 
+                full-stack web application, and OrderHelper, a Google Workspace Add-On.  
             </Typography>
             </>
         )
         const makerBlurb = (
             <>
-            <Typography variant='h4' color={theme.primary.light}>Maker Projects</Typography>
+            <Typography variant='h4' color={theme.primary.light}>Maker Culture</Typography>
             <br/>
             <Typography variant='h5' color={theme.primary.main}>
-                This is <b className={styles.Emphasize}>making </b>
-                stuff and it is really cool
+                I volunteer at the Invention Studio, GT's campus maker space. 
             </Typography>
             </>
         )
@@ -38,16 +38,25 @@ export default function Intro(props) {
             <Typography variant='h4' color={theme.primary.light}>Process Improvement</Typography>
             <br/>
             <Typography variant='h5' color={theme.primary.main}>
-                Everything is a process which can be streamlined. I train and onboard people. I manage projects. 
+                I bring a process-oriented approach to my work, and have had a hand in structural improvements to every team I've been part of. 
             </Typography>
-
+            </>
+        )
+        const scienceBlurb = (
+            <>
+            <Typography variant='h4' color={theme.primary.light}>Science</Typography>
+            <br/>
+            <Typography variant='h5' color={theme.primary.main}>
+                I prefer to use my engineering skills to support the study of the brain. 
+            </Typography>
             </>
         )
 
         const flyoutText = {
             'web': webBlurb,
             'making': makerBlurb,
-            'operations': operationsBlurb
+            'operations': operationsBlurb,
+            'science': scienceBlurb
         }
         setFlyout(flyoutText[cardName])
     }

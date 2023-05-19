@@ -1,7 +1,7 @@
 import { Box, Typography } from '@mui/material'
 import React from 'react'
 import styles from './styles/Banner.module.css'
-
+import headshot from '../assets/headshot.png'
 
 export default function Banner(props) {
     return(
@@ -10,7 +10,8 @@ export default function Banner(props) {
         flexDirection: 'row',
         flexGrow: 1, 
         maxWidth: '100%', 
-        marginBottom: '2rem'
+        marginBottom: '2rem',
+        minHeight: '25vh',
         }}>
             <div className={styles.BannerText}>
                     <img className={styles.BannerImage} src={require('../assets/balcony.jpg')} alt="Jason Background"/>

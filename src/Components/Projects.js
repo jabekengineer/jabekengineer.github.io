@@ -12,6 +12,9 @@ export default function Projects() {
         <Typography className={styles.TitleSub} color={theme.primary.main}>Projects </Typography>
             <hr/>
             <br/>
+            <Typography className={styles.Plain} color={theme.primary.main}>
+            Stay tuned for some exciting projects I have on the way!
+        </Typography>
         </Container>
         </Container>
         </>
