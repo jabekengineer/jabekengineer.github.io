@@ -38,7 +38,7 @@ export default function Intro(props) {
             <Typography variant='h4' color={theme.primary.light}>Process Improvement</Typography>
             <br/>
             <Typography variant='h5' color={theme.primary.main}>
-                I bring a process-oriented approach to my work, and have had a hand in structural improvements to every team I've been part of. 
+                I bring a process-oriented approach to my work, and have led improvement projects for every team I've been part of. 
             </Typography>
             </>
         )
